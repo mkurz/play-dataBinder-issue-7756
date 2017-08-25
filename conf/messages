@@ -1,0 +1,3 @@
+error.invalid.phone=This phone number field is invalid!
+#error.invalid.com.google.i18n.phonenumbers.Phonenumber$PhoneNumber=Invalid phone number # doesn't work right now - wait for Play 2.6.4
+error.invalid=Sorry to tell you, but this field in invalid!

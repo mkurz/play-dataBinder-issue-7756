@@ -1,0 +1,7 @@
+@(myForm: Form[forms.authorization.CreateOrganizationForm])
+@main("Welcome to Play") {
+    @helper.form(action = routes.HomeController.handleForm()) {
+        @helper.inputText(myForm("phone"))
+        <button type="submit">Submit</button>
+    }
+}
